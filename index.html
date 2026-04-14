@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George T. — GIS Portfolio</title>
+  <meta name="description" content="Portfolio showcasing GIS and geospatial projects, professional experience, and certifications.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">George&nbsp;T.</a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__list" id="nav-list">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#certifications" class="nav__link">Certifications</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero / About -->
+  <section class="hero" id="about">
+    <div class="container hero__content">
+      <h1 class="hero__title">Hi, I'm <span class="highlight">George&nbsp;T.</span></h1>
+      <p class="hero__subtitle">GIS Analyst &amp; Geospatial Developer</p>
+      <p class="hero__description">
+        I specialize in geographic information systems, spatial analysis, and
+        cartographic design. I build tools and visualizations that turn
+        location data into actionable insights.
+      </p>
+      <a href="#projects" class="btn btn--primary">View My Work</a>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section__title">Projects</h2>
+      <div class="projects__grid">
+
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🗺️</div>
+          <h3 class="card__title">Urban Heat Island Analysis</h3>
+          <p class="card__text">
+            Used Landsat 8 thermal imagery and NDVI data to map urban heat
+            islands across a major metro area, identifying vulnerable
+            neighborhoods for targeted cooling interventions.
+          </p>
+          <ul class="card__tags">
+            <li>ArcGIS Pro</li>
+            <li>Remote Sensing</li>
+            <li>Python</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🌊</div>
+          <h3 class="card__title">Flood Risk Assessment</h3>
+          <p class="card__text">
+            Developed a multi-criteria flood risk model integrating DEM,
+            land-use, soil permeability, and precipitation data to support
+            emergency management planning.
+          </p>
+          <ul class="card__tags">
+            <li>QGIS</li>
+            <li>Spatial Analysis</li>
+            <li>PostGIS</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🛰️</div>
+          <h3 class="card__title">Land-Use Change Detection</h3>
+          <p class="card__text">
+            Analyzed multi-temporal satellite imagery to quantify land-use
+            and land-cover changes over a 20-year period, supporting
+            environmental impact reporting.
+          </p>
+          <ul class="card__tags">
+            <li>Google Earth Engine</li>
+            <li>JavaScript</li>
+            <li>Classification</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">📍</div>
+          <h3 class="card__title">Interactive Web Map Dashboard</h3>
+          <p class="card__text">
+            Built a Leaflet-based dashboard that visualizes real-time
+            sensor data on an interactive map with filtering, clustering,
+            and time-series charts.
+          </p>
+          <ul class="card__tags">
+            <li>Leaflet.js</li>
+            <li>HTML/CSS/JS</li>
+            <li>GeoJSON</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🌿</div>
+          <h3 class="card__title">Vegetation Health Monitoring</h3>
+          <p class="card__text">
+            Created automated workflows to compute NDVI time series from
+            Sentinel-2 imagery, enabling agricultural stakeholders to
+            track crop health seasonally.
+          </p>
+          <ul class="card__tags">
+            <li>Python</li>
+            <li>Rasterio</li>
+            <li>Sentinel-2</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🏙️</div>
+          <h3 class="card__title">Site Suitability Analysis</h3>
+          <p class="card__text">
+            Performed weighted overlay analysis to identify optimal
+            locations for new community facilities using demographic,
+            transportation, and zoning data layers.
+          </p>
+          <ul class="card__tags">
+            <li>ArcGIS Pro</li>
+            <li>ModelBuilder</li>
+            <li>Geodatabase</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section section--alt" id="experience">
+    <div class="container">
+      <h2 class="section__title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <span class="timeline__date">2023 – Present</span>
+          <h3 class="timeline__role">GIS Analyst</h3>
+          <p class="timeline__org">Geospatial Solutions Inc.</p>
+          <p class="timeline__desc">
+            Conduct spatial analysis and produce cartographic deliverables
+            for municipal planning projects. Automate geoprocessing
+            workflows with Python and ArcPy.
+          </p>
+        </div>
+
+        <div class="timeline__item">
+          <span class="timeline__date">2021 – 2023</span>
+          <h3 class="timeline__role">GIS Technician</h3>
+          <p class="timeline__org">County Planning Department</p>
+          <p class="timeline__desc">
+            Maintained and updated enterprise geodatabases. Created web
+            maps for public-facing land-use applications using ArcGIS
+            Online.
+          </p>
+        </div>
+
+        <div class="timeline__item">
+          <span class="timeline__date">2019 – 2021</span>
+          <h3 class="timeline__role">Geospatial Intern</h3>
+          <p class="timeline__org">Environmental Research Lab</p>
+          <p class="timeline__desc">
+            Assisted with satellite image processing, GPS field data
+            collection, and thematic map production for ecological
+            research.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <h2 class="section__title">Certifications</h2>
+      <ul class="certs__list">
+        <li class="certs__item">
+          <strong>Esri ArcGIS Desktop Professional</strong>
+          <span class="certs__issuer">Esri</span>
+        </li>
+        <li class="certs__item">
+          <strong>Google Earth Engine Certified Developer</strong>
+          <span class="certs__issuer">Google</span>
+        </li>
+        <li class="certs__item">
+          <strong>GISP — GIS Professional</strong>
+          <span class="certs__issuer">GIS Certification Institute</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section--alt" id="contact">
+    <div class="container contact">
+      <h2 class="section__title">Get in Touch</h2>
+      <p class="contact__text">
+        Interested in collaborating or have a question about my work?
+        Feel free to reach out.
+      </p>
+      <a href="mailto:george@example.com" class="btn btn--primary">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 George&nbsp;T. All rights reserved.</p>
+      <ul class="footer__links">
+        <li><a href="https://github.com/GeorgeT05" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

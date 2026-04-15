@@ -2,7 +2,7 @@
  
 Personal portfolio website for George Tong, Geomatics student at the University of Waterloo.
  
-🌐 **Live site:** [your-username.github.io](https://your-username.github.io)
+🌐 **Live site:** [your-username.github.io](https://GeorgeT05.github.io)
  
 ---
  
